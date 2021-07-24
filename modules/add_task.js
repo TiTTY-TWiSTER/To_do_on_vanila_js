@@ -1,6 +1,6 @@
 
 import create_li_task from './create_li_task.js'
-
+import check_input from './form_check_input.js'
 export default function(arr){
     var arg_li = undefined
 
@@ -34,6 +34,14 @@ export default function(arr){
         document.querySelector('.list-group').prepend(create_li_task(new_task_obj))        
 
         arg_li =  create_li_task(new_task_obj)
+
+
+
+        var last_to_do = JSON.parse(localStorage.getItem('to_do'))
         
+        document.querySelector('.form-label').innerText = `Добавить заметку номер ${last_to_do.length + 10 + 1}`   
+             
+        check_input()
     })
+    
 }
