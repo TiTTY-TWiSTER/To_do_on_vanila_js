@@ -1,3 +1,4 @@
+![example on site](to_do_list.jpg)
 # To_do_on_vanila_js
 To do list on vanila JS
 
