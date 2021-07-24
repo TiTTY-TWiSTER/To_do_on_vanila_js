@@ -2,6 +2,8 @@
 # To_do_on_vanila_js
 To do list on vanila JS
 
+Link online - http://test.cepos.ru/
+
 Основные требования:
 1. Вывод списка дел (задач)
 2. Возможность создать задачу
